@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "mf-lang"
+version = "0.1.0"
+description = ""
+authors = ["Almaz Ilaletdinov <a.ilaletdinov@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "mf_lang", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
